@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surf Forecast Comparison Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Surf Forecast Hub</h1>
+        <p>Your guide to the best surf forecast websites for every region.</p>
+        <nav>
+            <ul>
+                <li><a href="#top-sites">Top Sites</a></li>
+                <li><a href="#features">Feature Comparison</a></li>
+                <li><a href="#regions">Regions</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Top Surf Forecast Sites Section -->
+    <section id="top-sites">
+        <h2>Top Surf Forecast Sites</h2>
+        <div class="site-card">
+            <h3>Magicseaweed</h3>
+            <p>Known for accurate regional forecasts and comprehensive swell data.</p>
+            <a href="https://magicseaweed.com" target="_blank">Visit Site</a>
+        </div>
+        <div class="site-card">
+            <h3>Surfline</h3>
+            <p>Great for video forecasts and mobile-friendly updates.</p>
+            <a href="https://surfline.com" target="_blank">Visit Site</a>
+        </div>
+    </section>
+
+    <!-- Feature Comparison Table -->
+    <section id="features">
+        <h2>Compare Forecast Sites by Key Features</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Website</th>
+                    <th>Forecast Accuracy</th>
+                    <th>Real-Time Buoy Data</th>
+                    <th>Regional Coverage</th>
+                    <th>Tide Charts</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Magicseaweed</td>
+                    <td>High</td>
+                    <td>Yes</td>
+                    <td>Global</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Surfline</td>
+                    <td>Very High</td>
+                    <td>Yes</td>
+                    <td>Global</td>
+                    <td>Yes</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Regional Forecast Section -->
+    <section id="regions">
+        <h2>Best Surf Forecast Sites by Region</h2>
+        <div class="region">
+            <h3>California</h3>
+            <p>Top Sites: Surfline, Magicseaweed, Surf-Forecast</p>
+        </div>
+        <div class="region">
+            <h3>Australia</h3>
+            <p>Top Sites: Coastalwatch, Magicseaweed, WillyWeather</p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Surf Forecasting Guides</h2>
+        <article>
+            <h3>How to Read a Surf Forecast</h3>
+            <p>Learn about swell height, wave period, and direction...</p>
+            <a href="#">Read More</a>
+        </article>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Surf Forecast Hub</p>
+    </footer>
+</body>
+</html>
